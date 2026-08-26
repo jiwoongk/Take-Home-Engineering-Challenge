@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     S["Daily Scheduler"] --> O["Import Coordinator"]
     O --> Q["Job Queue"]
@@ -9,3 +10,4 @@ flowchart TD
     D --> C{"Reconciliation passes?"}
     C -->|Yes| P["Atomic Publish"]
     C -->|No| F["Quarantine / Failed Run"]
+'''
