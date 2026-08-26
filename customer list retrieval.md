@@ -10,4 +10,4 @@ flowchart TD
     D --> C{"Reconciliation passes?"}
     C -->|Yes| P["Atomic Publish"]
     C -->|No| F["Quarantine / Failed Run"]
-'''
+```
