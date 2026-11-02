@@ -1,4 +1,4 @@
-mermaid'''
+```mermaid
 erDiagram
     COMPANIES ||--o{ EMPLOYEES : employs
     COMPANIES ||--o{ PAYROLL_RUNS : processes
@@ -87,4 +87,4 @@ erDiagram
         decimal debit
         decimal credit
     }
-    '''
+    ```
